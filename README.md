@@ -6,7 +6,7 @@ Build better rule files for AI coding agents in minutes.
 
 - `AGENTS.md` — shared instructions for Codex and compatible agents
 - `CLAUDE.md` — shared rules plus Claude Code workflow guidance
-- `.cursorrules` — shared rules plus Cursor-focused editing guidance
+- `.cursorrules` — legacy-compatible Cursor guidance; modern Cursor projects may prefer `.cursor/rules/*.mdc`
 
 ## Why
 

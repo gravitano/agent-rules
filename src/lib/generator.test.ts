@@ -43,6 +43,7 @@ describe('generateRules', () => {
     expect(files.every((file) => file.content.includes('Acme API'))).toBe(true)
     expect(files.find((file) => file.name === 'CLAUDE.md')?.content).toContain('Use plan mode')
     expect(files.find((file) => file.name === '.cursorrules')?.content).toContain('Keep edits focused')
+    expect(files.find((file) => file.name === '.cursorrules')?.description).toContain('Legacy-compatible')
   })
 
   it('includes only non-empty commands and explicit project constraints', () => {

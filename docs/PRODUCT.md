@@ -44,7 +44,8 @@ Generate focused, production-ready rule files for every AI coding agent—privat
 - Three presets: SaaS starter, API service, content site.
 - Project context, stack, architecture, package manager, test framework, priorities, custom constraints, and commands.
 - English and Bahasa Indonesia output.
-- `AGENTS.md`, `CLAUDE.md`, and `.cursorrules` generation.
+- `AGENTS.md`, `CLAUDE.md`, and legacy-compatible `.cursorrules` generation.
+- Compatibility is labeled transparently: modern Cursor projects may prefer `.cursor/rules/*.mdc`, planned for a future release.
 - Copy and individual download.
 - Responsive, accessible, SEO-ready static site.
 - No backend, auth, analytics, cookies, or data collection.

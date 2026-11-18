@@ -201,6 +201,6 @@ export function generateRules(config: ProjectConfig): GeneratedFile[] {
   return [
     { name: 'AGENTS.md', description: 'Shared instructions for Codex and compatible agents.', content: shared },
     { name: 'CLAUDE.md', description: 'Shared guide plus Claude Code workflow rules.', content: claude },
-    { name: '.cursorrules', description: 'Shared guide plus Cursor-specific editing rules.', content: cursor },
+    { name: '.cursorrules', description: 'Legacy-compatible Cursor rules; modern Cursor projects may prefer .cursor/rules/*.mdc.', content: cursor },
   ]
 }
