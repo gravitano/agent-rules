@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gravitano.github.io/agent-rules/sitemap.xml
