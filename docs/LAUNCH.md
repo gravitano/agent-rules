@@ -8,10 +8,18 @@
 - [x] Responsive UI and local-only privacy model implemented.
 - [x] SEO metadata, sitemap, robots, favicon, and social card added.
 - [x] Unit tests, lint, typecheck, production build, and dependency audit pass locally.
-- [ ] Desktop and mobile browser smoke tests pass.
-- [ ] GitHub Actions production deployment passes.
-- [ ] Live URL returns the app and core browser flow passes.
-- [ ] v1.0.0 release published.
+- [x] Desktop and mobile browser smoke tests pass.
+- [x] GitHub Actions production deployment passes.
+- [x] Live URL returns the app and core browser flow passes.
+- [x] v1.0.0 release published.
+
+## Release evidence
+
+- Product: https://gravitano.github.io/agent-rules/
+- Repository: https://github.com/gravitano/agent-rules
+- Release: https://github.com/gravitano/agent-rules/releases/tag/v1.0.0
+- CI run: https://github.com/gravitano/agent-rules/actions/runs/44361145253
+- Browser smoke: hero, preset, generation, clipboard, download, desktop overflow, and mobile overflow all passed.
 
 ## Launch copy — Indonesian
 
